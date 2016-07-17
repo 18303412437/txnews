@@ -1,0 +1,140 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.body{
+	width: 100%;
+	height: 100%;
+}
+.top{
+	width: 100%;
+	height: .8rem;
+	line-height: .8rem;
+	border-bottom: 1px solid #ccc;
+}
+.top_box{
+	width: 90%;
+	margin: 0 auto
+}
+.top .top_box ul li{
+	height: .7rem;
+	font-size: .3rem;
+	float: left;
+	padding:0 .15rem;
+}
+.top ul li:nth-child(1){
+	border-bottom: 1px solid blue;
+}
+
+
+/* 搜索 */
+.sousuo{
+	width: 100%;
+	height: .5rem;
+	padding-top: .1rem;
+}
+.sousuo>input{
+	width: 80%;
+	height: .4rem;
+	margin: 0 auto;
+	display: block;
+	box-sizing:border-box;
+	padding-left: .6rem;
+	color: #ccc;
+}
+
+
+/* 推荐 */
+.tuijian{
+	width: 90%;
+	height: 3rem;
+	margin: 0 auto;
+	margin-bottom: .2rem;
+	position: relative;
+}
+.tuijian img{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.tj_text{
+	position: absolute;
+	bottom:.1rem;
+	left:.1rem;
+	color: #fff;
+	font-size: .3rem;
+}
+.tj_text span{
+	font-size: .2rem;
+}
+
+/* 图文 */
+.tuwen{
+	width: 100%;
+	height: auto;
+}
+.tuwen_box{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	border-top:1px solid #ccc;
+}
+.news{
+	width: 100%;
+	height: 1.5rem;
+}
+.news_left{
+	width: 70%;
+	height: 100%;
+	float: left;
+	font-size: .2rem;
+}
+.news_left>p{
+	font-size: .31rem;
+	margin-bottom: .1rem;
+	margin-top: .15rem;
+}
+.news_left .laiyuan{
+	padding-right:.1rem; 
+}
+.genduo{
+	float: right;
+}
+.news_color{
+	color: blue;
+}
+
+.news_right{
+	width: 28%;
+	height: 100%;
+	margin-left: 2%;
+	float: left;
+}
+.img_box{
+	width: 100%;
+	height: 1.2rem;
+	margin-top:.15rem;
+}
+.img_box>img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/* 底部固定导航 */
+.bot{
+	width: 100%;
+	height: 1rem;
+	position: fixed;
+	bottom: 0;
+	line-height: 1rem;
+	background: #fff;
+	border-top: 1px solid #ccc; 
+}
+.bot ul li{
+	width: 25%;
+	float: left;
+	font-size: .3rem;
+	text-align: center;
+
+}
